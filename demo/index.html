@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>minicard demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" media="screen, print" href="../minicard.css">
+    <link rel="stylesheet" media="screen, print" href="demo.css">
+</head>
+<body>
+<div id="main">
+    <div class="intro">
+        <div class="hed">
+             <a href="https://jsvine.com/minicard">minicard</a> demo
+        </div>
+        <div class="dek">
+            A quick look at what the <a href="https://jsvine.com/minicard">minicard</a> CSS styles help you do. Pop open your web inspector, and poke around!
+        </div>
+    </div>
+    <div class="minicard-row">
+        <div class="minicard-col-33">
+            <div class="minicard">
+                <div class="minicard-head">Berkeley's Crown Jewel</div>
+                <div class="minicard-body">The Cheese Board Collective in Berkeley, California, comprises two worker owned and operated businesses: a cheese shop/bakery commonly referred to as "The Cheese Board", and a pizzeria known as "Cheese Board Pizza".</div>
+                <div class="minicard-foot">Source: <a href="http://en.wikipedia.org/wiki/Cheese_Board_Collective">Wikipedia</a></div>
+            </div> 
+
+            <div class="minicard minicard-bleed">
+                <div class="minicard-head">Living on the Edge</div>
+                <div class="minicard-body">
+                    <div class="demo-bleed-fill">
+                        The <code>.minicard-bleed</code> class removes the margins from the <code>.minicard-body</code>.
+                    </div>
+                </div>
+                <div class="minicard-foot"><code>.minicard-foot</code> divs are optional, and can be used with both standard minicards and <code>.minicard-bleed</code> minicards.</div>
+            </div> 
+            <div class="minicard">
+                <div class="minicard-head">Helper Classes</div>
+                <div class="minicard-body">
+                    <p>The <code>.minicard-row</code> and <code>.minicard-col</code> classes are optional, but useful for laying out multiple cards.</p>
+                    <p>A simple CSS media query can make these columns "responsive." See the final lines of <a href="demo.css">demo.css</a> for an example.</p>
+                </div>
+            </div> 
+        </div>
+        <div class="minicard-col-67">
+            <div class="minicard minicard-bleed">
+                <div class="minicard-body">
+                    <img class="photo" src="http://farm8.staticflickr.com/7281/8737715095_4cd0753f5a.jpg"/>
+                </div>
+                <div class="minicard-foot">Photo by Flickr user <a href="http://www.flickr.com/photos/angeloangelo/">angeloangelo</a></div>
+            </div> 
+            <div class="minicard minicard-bleed">
+                <div class="minicard-body">
+                    <img class="photo" src="http://farm6.staticflickr.com/5130/5305988016_57fcac4b6d.jpg"/>
+                </div>
+                <div class="minicard-foot">Photo by Flickr user <a href="http://www.flickr.com/photos/premshree/">Premshree Pillai</a></div>
+            </div> 
+        </div>
+    </div>
+    <div class="minicard-row">
+        <div class="minicard-col-75">
+        </div>
+        <div class="minicard-col-25">
+        </div>
+    </div>
+</div>
+</body>
+</html>
